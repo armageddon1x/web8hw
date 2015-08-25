@@ -121,8 +121,8 @@ hr{
 /*media queries*/
 @media(max-width:480px){
 	body{
-	background: rgb(25,25,25);
-	color: white;
+		background: rgb(25,25,25);
+		color: white;
 	}
 	h1{
 		width: 100%;
@@ -253,26 +253,25 @@ hr{
 		font-size: 14px;
 	}
 }
-
-@media(max-width: 780px){
+@media(min-width: 481px) and (max-width: 767px){
 	body{
-	background: rgb(25,25,25);
-	color: white;
+		background: rgb(25,25,25);
+		color: white;
 	}
 	h1{
 		width: 100%;
 		background: rgba(0,0,0,.9);
 		font-variant: small-caps;
-		padding: 20px 0;
-		font-size: 70px;
+		padding: 10px 0;
+		font-size: 50px;
 		text-align: center;
-		border-bottom-right-radius: 30px;
-		border-bottom-left-radius: 30px;
+		border-bottom-right-radius: 0px;
+		border-bottom-left-radius: 0px;
 	}
 	#navi{
 	}
 	#bar{
-		width: 80%;
+		width: 100%;
 		margin: 0 auto;
 	}
 	#bar ul{
@@ -280,8 +279,8 @@ hr{
 		list-style: none;
 	}
 	#bar ul li{
-		width: 15%;
-		padding: 1% .8%;
+		width: 10%;
+		padding: 2% 3%;
 		display: inline-block;
 		font-size: 20px;
 		background: rgb(225,225,225);
@@ -292,7 +291,7 @@ hr{
 		color: #3FFFD9;
 	}
 	#wrap{
-		width: 70%;
+		width: 100%;
 		margin: auto;
 	}
 	#start{
@@ -302,30 +301,31 @@ hr{
 		border-bottom-right-radius: 20px;
 	}
 	h2{
-		padding: 20px;
-		width: 70%;
+		padding: 10px;
+		width: 95%;
 		margin: 0 auto;
-		border-bottom-right-radius: 50px;
-		border-bottom-left-radius: 50px;
+		margin-top: 20px;
+		border-bottom-right-radius: 0px;
+		border-bottom-left-radius: 0px;
 		background: rgba(0,0,0,.5);
 		text-align: center;
-		font-size: 50px;
+		font-size: 30px;
 		margin-bottom: 30px;
 	}
 	h3{
-		padding: 20px;
-		width: 40%;
-		border-bottom-right-radius: 60px;
+		padding: 10px;
+		width: 60%;
+		border-bottom-right-radius: 20px;
 		background: rgba(0,0,0,.5);
-		text-indent: 40px;
-		font-size: 30px;
+		text-indent: 20px;
+		font-size: 20px;
 		margin-bottom: 20px;
-		padding-top: 0;
 	}
 	hr{
-		width: 50%;
-		border: 10px solid rgba(0,0,0,.5);
-		border-bottom-right-radius: 50px;
+		width: 90%;
+		border: 2px solid rgba(0,0,0,.5);
+		border-bottom-right-radius: 00px;
+		margin-bottom: 20px;
 	}
 	#wrap>p{
 		background: rgba(0,0,0,.3);
@@ -336,7 +336,7 @@ hr{
 		width: 80%
 	}
 	#text{
-		width: 50%;
+		width: 80%;
 		display: inline-block;
 		background: rgba(0,0,0,.5);
 		padding: 20px;
@@ -345,16 +345,16 @@ hr{
 		float: left;
 	}
 	#image{
-		width: 35%;
+		width: 80%;
 		display: inline-block;
 		background: rgba(0,0,0,.8);
 		border-bottom-left-radius: 60px;
 		border-top-left-radius: 60px;
 		float: right;
 		padding-left: 40px;
+		margin-bottom: 30px;
 	}
 	#img{
-		width: auto;
 		height: 240px;
 		vertical-align: bottom;
 		text-align: right;
@@ -362,20 +362,17 @@ hr{
 		border-top-left-radius: 60px;
 	}
 	#foot{
-		border-top-right-radius: 100px;
-		border-top-left-radius: 100px;
+		border-top-right-radius: 40px;
+		border-top-left-radius: 40px;
 		background: rgba(0,0,0,.9);
 		text-align: center;
 		margin-top: 400px;
-		padding-top: 60px;
-		padding-bottom: 40px;
+		padding-top: 30px;
+		padding-bottom: 10px;
 		clear: both;
 		color: rgba(0,0,255,.3);
-		font-size: 24px;
+		font-size: 18px;
 	}
 }
-
 @media(min-width:1200px){
-	body{background: red;
-	}
 }
