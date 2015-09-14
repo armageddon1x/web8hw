@@ -211,8 +211,10 @@ hr{
 	hr{
 		margin: auto;
 		width: 80%;
-		border: 1px solid white;
-		margin-bottom: 10px;
+		border: 10px solid white;
+		margin-bottom: 30px;
+		margin-top: 30px;
+		border-bottom-right-radius: 0px;
 	}
 	#wrap>p{
 		background: rgba(0,0,0,.3);
